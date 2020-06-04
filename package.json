@@ -4,7 +4,7 @@
   "description": "Boilerplate for servers",
   "main": "app.js",
   "scripts": {
-    "test": "mocha -r test-setup.js",
+    "test": "mocha -r test/test-setup.js",
     "start": "node src/server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
